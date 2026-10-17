@@ -1,6 +1,5 @@
-<div align="center">
 
-# CARO GAME
+# TICTACTOE GAME
 
 ### Một phiên bản Caro/Tic-Tac-Toe hiện đại được xây dựng bằng C++ và SFML
 
@@ -23,7 +22,6 @@
   <a href="#-đội-ngũ-phát-triển">Đội ngũ</a>
 </p>
 
-</div>
 
 ---
 
