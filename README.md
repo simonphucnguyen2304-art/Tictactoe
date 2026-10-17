@@ -146,18 +146,9 @@ Dự án được thực hiện bởi:
 | **Nguyễn Kim Phúc** | Contributor |
 | **Vũ Đình Anh Kiệt** | Contributor |
 | **Huỳnh Đình Khương** | Contributor |
-| **Huỳnh Phúc Nguyên** | Contributor / Repository owner |
+| **Huỳnh Phúc Nguyên** | Contributor |
 
-> Repository: [simonphucnguyen2304-art/Tictactoe](https://github.com/simonphucnguyen2304-art/Tictactoe)
 
 ## License
 
 Dự án hiện chưa khai báo giấy phép mã nguồn mở cụ thể. Vui lòng liên hệ nhóm phát triển trước khi sử dụng hoặc phân phối lại mã nguồn trong sản phẩm khác.
-
-<div align="center">
-
-### Nếu bạn thấy dự án thú vị, hãy để lại một Star cho repository!
-
-**Made with C++ & SFML by the CARO GAME team**
-
-</div>
