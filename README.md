@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎮 CARO GAME
+# CARO GAME
 
 ### Một phiên bản Caro/Tic-Tac-Toe hiện đại được xây dựng bằng C++ và SFML
 
@@ -27,28 +27,28 @@
 
 ---
 
-## ✨ Giới thiệu
+## Giới thiệu
 
 **CARO GAME** là dự án game bàn cờ viết bằng **C++20**, sử dụng thư viện **SFML** để xây dựng cửa sổ game, đồ họa, âm thanh và tương tác bàn phím.
 
 Dự án hướng đến việc tạo ra một trải nghiệm Caro hoàn chỉnh, không chỉ tập trung vào luật chơi mà còn chú trọng đến giao diện, hiệu ứng chuyển cảnh, âm thanh và khả năng lưu lại tiến trình ván đấu.
 
-> 🧠 Sẵn sàng thử sức với một đối thủ máy sử dụng thuật toán **Minimax kết hợp Alpha-Beta Pruning**?
+> Sẵn sàng thử sức với một đối thủ máy sử dụng thuật toán **Minimax kết hợp Alpha-Beta Pruning**?
 
-## 🕹️ Tính năng nổi bật
+## Tính năng nổi bật
 
-- 🎯 **Chế độ Classic**: Ván Caro truyền thống trên một bàn cờ.
-- 🔥 **Chế độ Extreme**: Biến thể nhiều bàn cờ với bàn cờ lớn tổng hợp.
-- 🤖 **Chơi với máy**: Bot tìm nước đi bằng Minimax và Alpha-Beta Pruning.
-- 👥 **Chơi 2 người**: Hai người chơi có thể thi đấu trên cùng một máy.
-- 💾 **Lưu và tải ván đấu**: Quản lý nhiều file save trong thư mục `saves/`.
-- 📊 **Thống kê người chơi**: Theo dõi điểm số, chuỗi thắng và số lượt đi.
-- 🎨 **Giao diện trực quan**: Menu, nút bấm, hộp thoại và hiệu ứng hover.
-- ✨ **Hiệu ứng hình ảnh**: Hiệu ứng đặt quân, chiến thắng, hòa và chuyển cảnh.
-- 🔊 **Âm thanh tương tác**: Âm thanh cho thao tác menu, di chuyển, chiến thắng và hòa.
-- ⚙️ **Cài đặt trong game**: Có menu tùy chọn, trợ giúp và xác nhận thoát game.
+- **Chế độ Classic**: Ván Caro truyền thống trên một bàn cờ.
+- **Chế độ Extreme**: Biến thể nhiều bàn cờ với bàn cờ lớn tổng hợp.
+- **Chơi với máy**: Bot tìm nước đi bằng Minimax và Alpha-Beta Pruning.
+- **Chơi 2 người**: Hai người chơi có thể thi đấu trên cùng một máy.
+- **Lưu và tải ván đấu**: Quản lý nhiều file save trong thư mục `saves/`.
+- **Thống kê người chơi**: Theo dõi điểm số, chuỗi thắng và số lượt đi.
+- **Giao diện trực quan**: Menu, nút bấm, hộp thoại và hiệu ứng hover.
+- **Hiệu ứng hình ảnh**: Hiệu ứng đặt quân, chiến thắng, hòa và chuyển cảnh.
+- **Âm thanh tương tác**: Âm thanh cho thao tác menu, di chuyển, chiến thắng và hòa.
+- **Cài đặt trong game**: Có menu tùy chọn, trợ giúp và xác nhận thoát game.
 
-## 🧰 Công nghệ sử dụng
+## Công nghệ sử dụng
 
 | Thành phần | Công nghệ |
 |---|---|
@@ -59,7 +59,7 @@ Dự án hướng đến việc tạo ra một trải nghiệm Caro hoàn chỉn
 | Build system | Visual Studio `.sln` / `.vcxproj` |
 | Nền tảng hiện tại | Windows |
 
-## 📁 Cấu trúc dự án
+## Cấu trúc dự án
 
 ```text
 Tictactoe/
@@ -82,7 +82,7 @@ Tictactoe/
 └── Video.txt                        # Liên kết video demo
 ```
 
-## 🚀 Cài đặt và chạy dự án
+## Cài đặt và chạy dự án
 
 ### Yêu cầu
 
@@ -106,9 +106,9 @@ Tictactoe/
 4. Đặt project `CAROGAME` làm **Startup Project**.
 5. Nhấn `Ctrl + F5` để chạy không debug hoặc `F5` để chạy debug.
 
-> ℹ️ Project hiện được cấu hình cho Windows và sử dụng các thư viện SFML trong thư mục `CAROGAME/SFML`. Nếu môi trường của bạn đặt SFML ở vị trí khác, hãy cập nhật `Additional Include Directories` và `Additional Library Directories` trong cấu hình project.
+> Project hiện được cấu hình cho Windows và sử dụng các thư viện SFML trong thư mục `CAROGAME/SFML`. Nếu môi trường của bạn đặt SFML ở vị trí khác, hãy cập nhật `Additional Include Directories` và `Additional Library Directories` trong cấu hình project.
 
-## 🎮 Điều khiển
+## Điều khiển
 
 | Phím | Chức năng |
 |---|---|
@@ -119,26 +119,26 @@ Tictactoe/
 | `Enter` | Đặt quân / xác nhận lựa chọn |
 | `Esc` | Mở menu tạm dừng trong ván đấu |
 
-## 💾 Lưu và tải ván đấu
+## Lưu và tải ván đấu
 
 - Chọn **Save Game** trong menu trong game để lưu ván đấu.
 - Các file lưu được tạo trong thư mục `saves/`.
 - Từ màn hình quản lý game, bạn có thể tải hoặc xóa ván đấu.
 - Nếu chưa nhập tên file, chương trình sẽ tự tạo tên theo thời gian hiện tại.
 
-## 🎬 Video demo
+## Video demo
 
 Xem video giới thiệu và demo dự án tại:
 
-👉 [YouTube Demo](https://youtu.be/GXTvtSnrPPo)
+[YouTube Demo](https://youtu.be/GXTvtSnrPPo)
 
-## 📚 Tài liệu dự án
+## Tài liệu dự án
 
-- 📄 [Báo cáo dự án](./Report.pdf)
-- 📊 [Slide thuyết trình](./Sumary.pptx)
-- 🎥 [Thông tin video demo](./Video.txt)
+- [Báo cáo dự án](./Report.pdf)
+- [Slide thuyết trình](./Sumary.pptx)
+- [Thông tin video demo](./Video.txt)
 
-## 👨‍💻 Đội ngũ phát triển
+## Đội ngũ phát triển
 
 Dự án được thực hiện bởi:
 
@@ -150,25 +150,16 @@ Dự án được thực hiện bởi:
 | **Huỳnh Đình Khương** | Contributor |
 | **Huỳnh Phúc Nguyên** | Contributor / Repository owner |
 
-> Repository: [@simonphucnguyen2304-art/Tictactoe](https://github.com/simonphucnguyen2304-art/Tictactoe)
+> Repository: [simonphucnguyen2304-art/Tictactoe](https://github.com/simonphucnguyen2304-art/Tictactoe)
 
-## 🤝 Đóng góp
-
-Mọi ý tưởng cải thiện game đều được hoan nghênh. Bạn có thể:
-
-1. Fork repository.
-2. Tạo một branch mới cho thay đổi của bạn.
-3. Commit với nội dung mô tả rõ ràng.
-4. Mở Pull Request để đề xuất thay đổi.
-
-## 📄 License
+## License
 
 Dự án hiện chưa khai báo giấy phép mã nguồn mở cụ thể. Vui lòng liên hệ nhóm phát triển trước khi sử dụng hoặc phân phối lại mã nguồn trong sản phẩm khác.
 
 <div align="center">
 
-### ⭐ Nếu bạn thấy dự án thú vị, hãy để lại một Star cho repository!
+### Nếu bạn thấy dự án thú vị, hãy để lại một Star cho repository!
 
-**Made with C++ & SFML by the CARO GAME team** 🎮
+**Made with C++ & SFML by the CARO GAME team**
 
 </div>
